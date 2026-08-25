@@ -1,0 +1,5 @@
+products/
+site/
+ledger/
+__pycache__/
+*.log
