@@ -24,8 +24,9 @@ def build_quote(customer: str, address: str, services: list) -> dict:
         key = svc.lower().strip()
         if key not in PRICE_TABLE:
             raise ValueError(f"unknown service: {svc}")
+        name = key.title()
         price, unit = PRICE_TABLE[key]
-        lines.append((svc.title(), price, unit))
+        lines.append((name, price, unit))
         total += price
     quote_no = f"GL-{datetime.utcnow():%Y%m%d-%H%M%S}"
     return {
