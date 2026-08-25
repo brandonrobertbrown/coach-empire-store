@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alpha Desk — Digital Playbooks That Ship</title>
+<meta name="description" content="Battle-tested digital playbooks: 50 elite AI prompts, faceless YouTube launch kit, and the 90-day AI freelance sprint. Instant download, lifetime updates.">
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#f78166; --accent2:#58a6ff; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,'Segoe UI',Roboto,sans-serif; line-height:1.6; }
+  .wrap { max-width:1000px; margin:0 auto; padding:48px 24px; }
+  header { text-align:center; margin-bottom:56px; }
+  header h1 { font-size:2.6rem; letter-spacing:-1px; }
+  header h1 span { color:var(--accent); }
+  header p { color:var(--muted); font-size:1.15rem; max-width:640px; margin:16px auto 0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:24px; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; transition:transform .15s, border-color .15s; }
+  .card:hover { transform:translateY(-4px); border-color:var(--accent2); }
+  .card img { width:100%; aspect-ratio:16/9; object-fit:cover; }
+  .card-body { padding:20px; flex:1; display:flex; flex-direction:column; }
+  .card h2 { font-size:1.25rem; margin-bottom:8px; }
+  .card p { color:var(--muted); font-size:.95rem; flex:1; }
+  .price-row { display:flex; justify-content:space-between; align-items:center; margin-top:18px; }
+  .price { font-size:1.5rem; font-weight:700; color:var(--accent); }
+  .btn { display:inline-block; background:var(--accent); color:#0d1117; padding:10px 22px; border-radius:8px; text-decoration:none; font-weight:600; }
+  .btn:hover { filter:brightness(1.1); }
+  footer { text-align:center; margin-top:64px; color:var(--muted); font-size:.85rem; border-top:1px solid var(--border); padding-top:24px; }
+  .badge { display:inline-block; background:#21262d; border:1px solid var(--border); color:var(--accent2); font-size:.75rem; padding:2px 10px; border-radius:99px; margin-bottom:10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Alpha<span>Desk</span></h1>
+    <p>Digital playbooks written by operators, not bloggers. Every pack is a working system — buy it, run it, ship something real this week.</p>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <img src="assets/alphaboost.png" alt="Alpha-Boost Prompt Pack cover">
+      <div class="card-body">
+        <span class="badge">BEST FOR LEVERAGE</span>
+        <h2>Alpha-Boost: 50 Elite AI Prompts</h2>
+        <p>50 fully-written prompts across sales copy, SEO, research, ops, finance, negotiation and learning — plus the 9-step goal-chain workflow. Any LLM.</p>
+        <div class="price-row"><span class="price">$39</span><a class="btn" href="#" data-product="AlphaBoostPack">Get the pack</a></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/faceless.png" alt="Faceless Channel Launch Kit cover">
+      <div class="card-body">
+        <span class="badge">CONTENT BUSINESS</span>
+        <h2>Faceless Channel Launch Kit</h2>
+        <p>30-day plan, niche-selection matrix with 40 pre-scored niches, 3 retention-tested script formats, production stack, monetization math.</p>
+        <div class="price-row"><span class="price">$27</span><a class="btn" href="#" data-product="FacelessChannelKit">Launch yours</a></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/freelance.png" alt="90-Day AI Freelance Sprint cover">
+      <div class="card-body">
+        <span class="badge">HIGHEST CEILING</span>
+        <h2>90-Day AI Freelance Sprint</h2>
+        <p>Zero to $5k/mo selling AI automations to local businesses: service menu, demo assets, outreach templates, pricing ladder, failure-mode counters.</p>
+        <div class="price-row"><span class="price">$47</span><a class="btn" href="#" data-product="AIFreelanceSprint">Start the sprint</a></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>Instant download · Lifetime updates · 30-day "ship something real" guarantee on every pack<br>© 2026 AlphaDesk — built by an operator</footer>
+</div>
+<script>
+// Storefront URLs get patched into this map when Gumroad listings go live.
+const LINKS = {
+  // "AlphaBoostPack": "https://gumroad.com/l/xxxx",
+};
+document.querySelectorAll('[data-product]').forEach(a => {
+  const url = LINKS[a.dataset.product];
+  if (url) { a.href = url; }
+  else { a.addEventListener('click', e => { e.preventDefault(); a.textContent = 'Live soon'; }); }
+});
+</script>
+</body>
+</html>
