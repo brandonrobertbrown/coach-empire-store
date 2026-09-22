@@ -37,6 +37,20 @@
   </header>
 
   <div class="grid">
+    <div class="card" style="border-color:#66FF99; grid-column:1/-1;">
+      <img src="assets/valkyrie_card.png" alt="Valkyrie recon radar showing 97 detected devices">
+      <div class="card-body">
+        <span class="badge">NEW — ANDROID APP · BEST SELLER POTENTIAL</span>
+        <h2>VALKYRIE — Android Recon Radar</h2>
+        <p>See every Wi-Fi &amp; Bluetooth device around you on a live tactical radar —
+        classified by type (infrastructure / fleet / vehicle / personal / IoT),
+        with manufacturer ID, randomized-MAC detection, and AI-ready debrief exports.
+        100% offline, no accounts, no telemetry. Survives screen-off for 24/7 scanning.
+        <br><b>Free version (25 targets) · PRO $29 one-time</b></p>
+        <div class="price-row"><span class="price">$29</span><a class="btn" href="#" data-product="Valkyrie" style="background:#66FF99;">Get VALKYRIE</a></div>
+      </div>
+    </div>
+
     <div class="card">
       <img src="assets/alphaboost.png" alt="Alpha-Boost Prompt Pack cover">
       <div class="card-body">
@@ -73,7 +87,10 @@
 <script>
 // Storefront URLs get patched into this map when Gumroad listings go live.
 const LINKS = {
-  // "AlphaBoostPack": "https://gumroad.com/l/xxxx",
+  "Valkyrie": "https://coachcaptain.gumroad.com/l/zmurlh",
+  "AlphaBoostPack": "https://coachcaptain.gumroad.com/l/tutmd",
+  "FacelessChannelKit": "https://coachcaptain.gumroad.com/l/meqvf",
+  "AIFreelanceSprint": "https://coachcaptain.gumroad.com/l/vcmth",
 };
 document.querySelectorAll('[data-product]').forEach(a => {
   const url = LINKS[a.dataset.product];
