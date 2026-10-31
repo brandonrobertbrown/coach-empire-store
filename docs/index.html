@@ -4,29 +4,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alpha Desk — Digital Playbooks That Ship</title>
-<meta name="description" content="Battle-tested digital playbooks: 50 elite AI prompts, faceless YouTube launch kit, and the 90-day AI freelance sprint. Instant download, lifetime updates.">
+<meta name="description" content="21 battle-tested digital products: AI prompt packs, niche playbooks, operational checklist kits, template bundles, and the VALKYRIE Android recon radar. Instant download, lifetime updates.">
 <style>
   :root { --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#f78166; --accent2:#58a6ff; }
   * { margin:0; padding:0; box-sizing:border-box; }
   body { background:var(--bg); color:var(--text); font-family:-apple-system,'Segoe UI',Roboto,sans-serif; line-height:1.6; }
-  .wrap { max-width:1000px; margin:0 auto; padding:48px 24px; }
+  .wrap { max-width:1100px; margin:0 auto; padding:48px 24px; }
   header { text-align:center; margin-bottom:56px; }
   header h1 { font-size:2.6rem; letter-spacing:-1px; }
   header h1 span { color:var(--accent); }
   header p { color:var(--muted); font-size:1.15rem; max-width:640px; margin:16px auto 0; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:24px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:24px; }
   .card { background:var(--card); border:1px solid var(--border); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; transition:transform .15s, border-color .15s; }
   .card:hover { transform:translateY(-4px); border-color:var(--accent2); }
   .card img { width:100%; aspect-ratio:16/9; object-fit:cover; }
+  .noimg { width:100%; aspect-ratio:16/9; display:flex; align-items:center; justify-content:center; font-size:3.5rem; font-weight:800; color:var(--accent); background:linear-gradient(135deg,#161b22,#1d2430); }
   .card-body { padding:20px; flex:1; display:flex; flex-direction:column; }
-  .card h2 { font-size:1.25rem; margin-bottom:8px; }
-  .card p { color:var(--muted); font-size:.95rem; flex:1; }
+  .card h2 { font-size:1.1rem; margin-bottom:8px; }
+  .card p { color:var(--muted); font-size:.92rem; flex:1; }
   .price-row { display:flex; justify-content:space-between; align-items:center; margin-top:18px; }
-  .price { font-size:1.5rem; font-weight:700; color:var(--accent); }
+  .price { font-size:1.4rem; font-weight:700; color:var(--accent); }
   .btn { display:inline-block; background:var(--accent); color:#0d1117; padding:10px 22px; border-radius:8px; text-decoration:none; font-weight:600; }
   .btn:hover { filter:brightness(1.1); }
   footer { text-align:center; margin-top:64px; color:var(--muted); font-size:.85rem; border-top:1px solid var(--border); padding-top:24px; }
   .badge { display:inline-block; background:#21262d; border:1px solid var(--border); color:var(--accent2); font-size:.75rem; padding:2px 10px; border-radius:99px; margin-bottom:10px; }
+  .group-title { margin:48px 0 20px; font-size:1.4rem; color:var(--text); border-left:4px solid var(--accent); padding-left:12px; }
 </style>
 </head>
 <body>
@@ -36,210 +38,305 @@
     <p>Digital playbooks written by operators, not bloggers. Every pack is a working system — buy it, run it, ship something real this week.</p>
   </header>
 
+<!-- LEAD_MAGNET:START -->
+  <div style="background:linear-gradient(135deg,#161b22,#1f2937);border:2px solid #58a6ff;border-radius:12px;padding:24px;margin-bottom:40px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;">
+    <div style="flex:1;min-width:280px;">
+      <span class="badge" style="background:#58a6ff;color:#0d1117;font-weight:700;">FREE LEAD MAGNET &middot; $0 INSTANT DOWNLOAD</span>
+      <h2 style="font-size:1.45rem;margin:6px 0 8px;">The Operator's AI &amp; Recon Starter Vault (Free Sample Pack)</h2>
+      <p style="color:var(--muted);font-size:.95rem;">Get 10 Elite Operator Prompts (Goal-Chain Protocol), the 15-Minute Daily Open/Close Business SOP, and the VALKYRIE Tactical Recon Field Brief &mdash; plus your <strong>20% OFF VIP Code (<code>OPERATOR20</code>)</strong> valid on every pack below.</p>
+    </div>
+    <div style="text-align:right;">
+      <div style="font-size:1.3rem;font-weight:700;color:#66FF99;margin-bottom:8px;">$0 <span style="font-size:.85rem;color:var(--muted);font-weight:400;">(100% Free)</span></div>
+      <a class="btn" href="https://coachcaptain.gumroad.com/l/operator-starter-vault" target="_blank" rel="noopener" style="background:#58a6ff;color:#0d1117;font-weight:700;">Download Free Vault</a>
+    </div>
+  </div>
+<!-- LEAD_MAGNET:END -->
+
+  <h3 class="group-title">Flagship Systems</h3>
   <div class="grid">
-    <div class="card" style="border-color:#66FF99; grid-column:1/-1;">
-      <img src="assets/valkyrie_card.png" alt="Valkyrie recon radar showing 97 detected devices">
+    <div class="card ">
+      <img src="assets/freelance.png" alt="90-Day AI Freelance Sprint — Zero to Paid Automation cover">
       <div class="card-body">
-        <span class="badge">NEW — ANDROID APP · BEST SELLER POTENTIAL</span>
-        <h2>VALKYRIE — Android Recon Radar</h2>
-        <p>See every Wi-Fi &amp; Bluetooth device around you on a live tactical radar —
-        classified by type (infrastructure / fleet / vehicle / personal / IoT),
-        with manufacturer ID, randomized-MAC detection, and AI-ready debrief exports.
-        100% offline, no accounts, no telemetry. Survives screen-off for 24/7 scanning.
-        <br><b>Free version (25 targets) · PRO $29 one-time</b></p>
-        <div class="price-row"><span class="price">$29</span><a class="btn" href="#" data-product="Valkyrie" style="background:#66FF99;">Get VALKYRIE</a></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="assets/alphaboost.png" alt="Alpha-Boost Prompt Pack cover">
-      <div class="card-body">
-        <span class="badge">BEST FOR LEVERAGE</span>
-        <h2>Alpha-Boost: 50 Elite AI Prompts</h2>
-        <p>50 fully-written prompts across sales copy, SEO, research, ops, finance, negotiation and learning — plus the 9-step goal-chain workflow. Any LLM.</p>
-        <div class="price-row"><span class="price">$39</span><a class="btn" href="#" data-product="AlphaBoostPack">Get the pack</a></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="assets/faceless.png" alt="Faceless Channel Launch Kit cover">
-      <div class="card-body">
-        <span class="badge">CONTENT BUSINESS</span>
-        <h2>Faceless Channel Launch Kit</h2>
-        <p>30-day plan, niche-selection matrix with 40 pre-scored niches, 3 retention-tested script formats, production stack, monetization math.</p>
-        <div class="price-row"><span class="price">$27</span><a class="btn" href="#" data-product="FacelessChannelKit">Launch yours</a></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="assets/freelance.png" alt="90-Day AI Freelance Sprint cover">
-      <div class="card-body">
-        <span class="badge">HIGHEST CEILING</span>
-        <h2>90-Day AI Freelance Sprint</h2>
+        <span class="badge">FLAGSHIP</span>
+        <h2>90-Day AI Freelance Sprint — Zero to Paid Automation</h2>
         <p>Zero to $5k/mo selling AI automations to local businesses: service menu, demo assets, outreach templates, pricing ladder, failure-mode counters.</p>
-        <div class="price-row"><span class="price">$47</span><a class="btn" href="#" data-product="AIFreelanceSprint">Start the sprint</a></div>
+        <div class="price-row"><span class="price">$47</span><a class="btn" href="https://coachcaptain.gumroad.com/l/freelance-sprint" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>    <div class="card ">
+      <img src="assets/faceless.png" alt="Faceless YouTube Launch Kit — 30-Day Plan cover">
+      <div class="card-body">
+        <span class="badge">FLAGSHIP</span>
+        <h2>Faceless YouTube Launch Kit — 30-Day Plan</h2>
+        <p>30-day plan, niche-selection matrix with 40 pre-scored niches, 3 retention-tested script formats, production stack, monetization math.</p>
+        <div class="price-row"><span class="price">$27</span><a class="btn" href="https://coachcaptain.gumroad.com/l/faceless-launch-kit" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>    <div class="card ">
+      <div class="noimg">C</div>
+      <div class="card-body">
+        <span class="badge">FLAGSHIP</span>
+        <h2>Cathedral Solarpunk Pack — Stills + I2V Clip + Story</h2>
+        <p>A solarpunk cathedral art pack: curated stills, an image-to-video clip, and the story bible behind the world.</p>
+        <div class="price-row"><span class="price">$12</span><a class="btn" href="https://coachcaptain.gumroad.com/l/cathedral-solarpunk" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>    <div class="card ">
+      <img src="assets/valkyrie_card.png" alt="VALKYRIE — Android Recon Radar (PRO License) cover">
+      <div class="card-body">
+        <span class="badge">FLAGSHIP</span>
+        <h2>VALKYRIE — Android Recon Radar (PRO License)</h2>
+        <p>Live tactical radar for every Wi-Fi & Bluetooth device around you — classified by type, manufacturer ID, randomized-MAC detection, AI-ready debrief exports. 100% offline, no accounts.</p>
+        <div class="price-row"><span class="price">$29</span><a class="btn" href="https://coachcaptain.gumroad.com/l/zmurlh" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>    <div class="card ">
+      <div class="noimg">F</div>
+      <div class="card-body">
+        <span class="badge">FLAGSHIP</span>
+        <h2>Focus Drill Prompt Library Pack</h2>
+        <p>A prompt library engineered for deep work: focus drills, planning rituals, and reset routines that keep output high on bad days.</p>
+        <div class="price-row"><span class="price">$27</span><a class="btn" href="https://coachcaptain.gumroad.com/l/meqvf" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>    <div class="card ">
+      <div class="noimg">A</div>
+      <div class="card-body">
+        <span class="badge">FLAGSHIP</span>
+        <h2>Alpha-Boost Operator Pack Vol 2</h2>
+        <p>The next 50: deeper chains for research synthesis, cold outreach, offer design, and weekly operating reviews. Plug-and-play variables.</p>
+        <div class="price-row"><span class="price">$39</span><a class="btn" href="https://coachcaptain.gumroad.com/l/vcmth" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>    <div class="card ">
+      <div class="noimg">A</div>
+      <div class="card-body">
+        <span class="badge">FLAGSHIP</span>
+        <h2>Athletic Intensity Story & Prompt Pack</h2>
+        <p>Story + prompt pack for athletes and coaches: intensity narratives, mental-toughness frameworks, and content-ready prompts.</p>
+        <div class="price-row"><span class="price">$29</span><a class="btn" href="https://coachcaptain.gumroad.com/l/vufixb" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>    <div class="card ">
+      <img src="assets/alphaboost.png" alt="Alpha-Boost Operator Pack cover">
+      <div class="card-body">
+        <span class="badge">FLAGSHIP</span>
+        <h2>Alpha-Boost Operator Pack</h2>
+        <p>50 fully-written prompts across sales copy, SEO, research, ops, finance, negotiation and learning — plus the 9-step goal-chain workflow. Any LLM.</p>
+        <div class="price-row"><span class="price">$39</span><a class="btn" href="https://coachcaptain.gumroad.com/l/tutmd" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>    <div class="card ">
+      <div class="noimg">C</div>
+      <div class="card-body">
+        <span class="badge">FLAGSHIP</span>
+        <h2>Captain Training Digital Pack</h2>
+        <p>Leadership operating system: daily drills, team standards, and accountability cadences built the way captains actually run locker rooms.</p>
+        <div class="price-row"><span class="price">$27</span><a class="btn" href="https://coachcaptain.gumroad.com/l/cysml" target="_blank" rel="noopener">Get it</a></div>
       </div>
     </div>
+  </div>
+
+  <h3 class="group-title">Operations Checklist Kits</h3>
+  <div class="grid">
+    <div class="card ">
+      <img src="assets/cover_checklist_kit_wedding_planners_20260826.png" alt="Operations Checklist Kit: Wedding Planners Edition cover">
+      <div class="card-body">
+        <span class="badge">CHECKLIST SYSTEM</span>
+        <h2>Operations Checklist Kit: Wedding Planners Edition</h2>
+        <p>10 field-tested operational checklists for this exact business — launch, weekly ops, audit, recovery. Instant download, lifetime updates.</p>
+        <div class="price-row"><span class="price">$17</span><a class="btn" href="https://coachcaptain.gumroad.com/l/nnosi" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+    <div class="card ">
+      <img src="assets/cover_checklist_kit_photographers_20260907.png" alt="Operations Checklist Kit: Photographers Edition cover">
+      <div class="card-body">
+        <span class="badge">CHECKLIST SYSTEM</span>
+        <h2>Operations Checklist Kit: Photographers Edition</h2>
+        <p>10 field-tested operational checklists for this exact business — launch, weekly ops, audit, recovery. Instant download, lifetime updates.</p>
+        <div class="price-row"><span class="price">$17</span><a class="btn" href="https://coachcaptain.gumroad.com/l/dvykxh" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+    <div class="card ">
+      <img src="assets/cover_checklist_kit_fitness_coaches_20260825.png" alt="Operations Checklist Kit: Fitness Coaches Edition cover">
+      <div class="card-body">
+        <span class="badge">CHECKLIST SYSTEM</span>
+        <h2>Operations Checklist Kit: Fitness Coaches Edition</h2>
+        <p>10 field-tested operational checklists for this exact business — launch, weekly ops, audit, recovery. Instant download, lifetime updates.</p>
+        <div class="price-row"><span class="price">$17</span><a class="btn" href="https://coachcaptain.gumroad.com/l/ogtllw" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+  </div>
+  <h3 class="group-title">Niche Playbooks</h3>
+  <div class="grid">
+    <div class="card ">
+      <img src="assets/cover_niche_guide_cleaning_services_20260921.png" alt="Niche Playbook: Cleaning Services Edition cover">
+      <div class="card-body">
+        <span class="badge">NICHE PLAYBOOK</span>
+        <h2>Niche Playbook: Cleaning Services Edition</h2>
+        <p>A niche playbook written for this exact business type: positioning, offer ladder, outreach scripts, and a 30-day launch plan. No generic advice.</p>
+        <div class="price-row"><span class="price">$24</span><a class="btn" href="https://coachcaptain.gumroad.com/l/bfbiu" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+    <div class="card ">
+      <img src="assets/cover_niche_guide_barbershops_20260902.png" alt="Niche Playbook: Barbershops Edition cover">
+      <div class="card-body">
+        <span class="badge">NICHE PLAYBOOK</span>
+        <h2>Niche Playbook: Barbershops Edition</h2>
+        <p>A niche playbook written for this exact business type: positioning, offer ladder, outreach scripts, and a 30-day launch plan. No generic advice.</p>
+        <div class="price-row"><span class="price">$24</span><a class="btn" href="https://coachcaptain.gumroad.com/l/wibgeg" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+    <div class="card ">
+      <img src="assets/cover_niche_guide_Etsy_sellers_20260825.png" alt="Niche Playbook: Etsy Sellers Edition cover">
+      <div class="card-body">
+        <span class="badge">NICHE PLAYBOOK</span>
+        <h2>Niche Playbook: Etsy Sellers Edition</h2>
+        <p>A niche playbook written for this exact business type: positioning, offer ladder, outreach scripts, and a 30-day launch plan. No generic advice.</p>
+        <div class="price-row"><span class="price">$24</span><a class="btn" href="https://coachcaptain.gumroad.com/l/trwcoe" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+  </div>
+  <h3 class="group-title">Prompt Expansion Packs</h3>
+  <div class="grid">
+    <div class="card ">
+      <img src="assets/cover_prompt_pack_real_estate_agents_20260922.png" alt="Prompt Expansion Pack: Real Estate Agents Edition cover">
+      <div class="card-body">
+        <span class="badge">PROMPT PACK</span>
+        <h2>Prompt Expansion Pack: Real Estate Agents Edition</h2>
+        <p>Purpose-built prompt expansion pack: every line written for this exact business. Plug into any LLM and ship. Lifetime updates.</p>
+        <div class="price-row"><span class="price">$19</span><a class="btn" href="https://coachcaptain.gumroad.com/l/axjdii" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+    <div class="card ">
+      <img src="assets/cover_prompt_pack_local_contractors_20260825.png" alt="Prompt Expansion Pack: Local Contractors Edition cover">
+      <div class="card-body">
+        <span class="badge">PROMPT PACK</span>
+        <h2>Prompt Expansion Pack: Local Contractors Edition</h2>
+        <p>Purpose-built prompt expansion pack: every line written for this exact business. Plug into any LLM and ship. Lifetime updates.</p>
+        <div class="price-row"><span class="price">$19</span><a class="btn" href="https://coachcaptain.gumroad.com/l/tryiohj" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+    <div class="card ">
+      <img src="assets/cover_prompt_pack_dog_trainers_20260906.png" alt="Prompt Expansion Pack: Dog Trainers Edition cover">
+      <div class="card-body">
+        <span class="badge">PROMPT PACK</span>
+        <h2>Prompt Expansion Pack: Dog Trainers Edition</h2>
+        <p>Purpose-built prompt expansion pack: every line written for this exact business. Plug into any LLM and ship. Lifetime updates.</p>
+        <div class="price-row"><span class="price">$19</span><a class="btn" href="https://coachcaptain.gumroad.com/l/gxuxji" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+  </div>
+  <h3 class="group-title">Template Bundles</h3>
+  <div class="grid">
+    <div class="card ">
+      <img src="assets/cover_template_bundle_food_trucks_20261004.png" alt="Template Bundle: Food Trucks Edition cover">
+      <div class="card-body">
+        <span class="badge">TEMPLATE BUNDLE</span>
+        <h2>Template Bundle: Food Trucks Edition</h2>
+        <p>Ready-to-run template bundle for this exact business: contracts, trackers, scripts, and SOPs. Instant download, lifetime updates.</p>
+        <div class="price-row"><span class="price">$21</span><a class="btn" href="https://coachcaptain.gumroad.com/l/ujlxf" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+    <div class="card ">
+      <img src="assets/cover_template_bundle_tutoring_services_20260901.png" alt="Template Bundle: Tutoring Services Edition cover">
+      <div class="card-body">
+        <span class="badge">TEMPLATE BUNDLE</span>
+        <h2>Template Bundle: Tutoring Services Edition</h2>
+        <p>Ready-to-run template bundle for this exact business: contracts, trackers, scripts, and SOPs. Instant download, lifetime updates.</p>
+        <div class="price-row"><span class="price">$21</span><a class="btn" href="https://coachcaptain.gumroad.com/l/ajuqi" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+    <div class="card ">
+      <img src="assets/cover_template_bundle_restaurant_owners_20260825.png" alt="Template Bundle: Restaurant Owners Edition cover">
+      <div class="card-body">
+        <span class="badge">TEMPLATE BUNDLE</span>
+        <h2>Template Bundle: Restaurant Owners Edition</h2>
+        <p>Ready-to-run template bundle for this exact business: contracts, trackers, scripts, and SOPs. Instant download, lifetime updates.</p>
+        <div class="price-row"><span class="price">$21</span><a class="btn" href="https://coachcaptain.gumroad.com/l/bkwnal" target="_blank" rel="noopener">Get it</a></div>
+      </div>
+    </div>
+  </div>
+
+<!-- HIGH_TICKET:START -->
+  <h3 class="group-title">High-Ticket Custom Hardware &amp; Done-For-You AI Systems</h3>
+  <div class="grid" style="margin-bottom:40px;">
+    <div class="card" style="border-color:#00D4FF;">
+      <img src="assets/zenith_titan.png" alt="Alpha Rigs — The Zenith Titan RTX 5080 Custom Liquid-Cooled PC" onerror="this.style.display='none'">
+      <div class="card-body">
+        <span class="badge" style="color:#00D4FF;border-color:#00D4FF;">ALPHA RIGS &middot; FLAGSHIP HARDWARE</span>
+        <h2>THE ZENITH TITAN &mdash; Custom Hardline RTX 5080 Build</h2>
+        <p>Hand-built hardline liquid-cooled powerhouse: MSI RTX 5080 Gaming Trio OC, Ryzen 9 9900X Overclocked, 64GB DDR5-6200, 2TB Gen5 NVMe, 11x Lian Li Infinity fans. Stress-tested with full thermal &amp; benchmark proof packet.</p>
+        <div class="price-row"><span class="price" style="color:#00D4FF;">$6,499</span><a class="btn" href="#lead-capture-form" onclick="selectInquiry('Alpha Rigs — Zenith Titan ($6,499)')" style="background:#00D4FF;color:#0d1117;">Reserve Build Slot</a></div>
+      </div>
+    </div>
+    <div class="card" style="border-color:#66FF99;">
+      <img src="assets/freelance.png" alt="72-Hour Local Business AI Lead-Response & Quote Bot Pilot">
+      <div class="card-body">
+        <span class="badge" style="color:#66FF99;border-color:#66FF99;">DONE-FOR-YOU AI PILOT &middot; 72-HR TURNAROUND</span>
+        <h2>Instant AI Lead-Response &amp; Quote Calculator Pilot</h2>
+        <p>Stop losing 35% of local leads to slow replies. We deploy a custom under-60-second AI lead-response &amp; instant quote bot wired to your exact pricing sheet in 72 hours. Working proof before you pay maintenance.</p>
+        <div class="price-row"><span class="price" style="color:#66FF99;">$497</span><a class="btn" href="#lead-capture-form" onclick="selectInquiry('72-Hr AI Lead-Response Pilot ($497)')" style="background:#66FF99;color:#0d1117;">Book 72-Hr Pilot</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="lead-capture-form" style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin-top:48px;">
+    <span class="badge">DIRECT OPERATOR INTAKE &middot; FAST RESPONSE</span>
+    <h2 style="font-size:1.4rem;margin-bottom:8px;">Request a Custom Build, 72-Hr AI Pilot, or Partner Deal</h2>
+    <p style="color:var(--muted);font-size:.95rem;margin-bottom:20px;">Use code <strong><code>OPERATOR20</code></strong> for 20% off any self-serve Gumroad pack above, or submit your project brief below for custom hardware, done-for-you AI automation, or 40%-commission affiliate partnerships.</p>
+    <form onsubmit="return handleLeadSubmit(event)" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;">
+      <input id="lead-name" type="text" required placeholder="Your Name or Handle" style="padding:11px 14px;border-radius:8px;border:1px solid var(--border);background:#0d1117;color:var(--text);">
+      <input id="lead-contact" type="text" required placeholder="Best Email or @Handle" style="padding:11px 14px;border-radius:8px;border:1px solid var(--border);background:#0d1117;color:var(--text);">
+      <select id="lead-interest" style="padding:11px 14px;border-radius:8px;border:1px solid var(--border);background:#0d1117;color:var(--text);">
+        <option value="72-Hr AI Lead-Response Pilot ($497)">72-Hr AI Lead-Response Pilot ($497)</option>
+        <option value="Alpha Rigs — Zenith Titan ($6,499)">Alpha Rigs — Zenith Titan ($6,499)</option>
+        <option value="VALKYRIE Fleet / Enterprise License">VALKYRIE Fleet / Enterprise License</option>
+        <option value="40% Affiliate / Agent Partner Deal">40% Affiliate / Agent Partner Deal</option>
+        <option value="Free Operator Starter Vault ($0)">Free Operator Starter Vault ($0)</option>
+      </select>
+      <input id="lead-notes" type="text" placeholder="Business niche, timeline, or spec notes" style="grid-column:1/-1;padding:11px 14px;border-radius:8px;border:1px solid var(--border);background:#0d1117;color:var(--text);">
+      <div style="grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+        <span id="lead-status" style="color:#66FF99;font-size:.9rem;">Instant 20% off self-serve code: <strong>OPERATOR20</strong></span>
+        <button type="submit" class="btn" style="border:none;cursor:pointer;font-size:1rem;">Lock Priority Slot &amp; Get Starter Vault &rarr;</button>
+      </div>
+    </form>
   </div>
 
 <!-- CATALOG:START -->
-  <h2 style="margin:56px 0 8px;font-size:1.6rem;">Full catalog</h2>
-  <p style="color:var(--muted);margin-bottom:24px;">Every pack below is live and instantly downloadable (17 more).</p>
-  <div class="grid">
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Template Bundle: Food Trucks Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$21</span><a class="btn" href="https://coachcaptain.gumroad.com/l/ujlxf">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Prompt Expansion Pack: Real Estate Agents Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$19</span><a class="btn" href="https://coachcaptain.gumroad.com/l/axjdii">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Niche Playbook: Cleaning Services Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$24</span><a class="btn" href="https://coachcaptain.gumroad.com/l/bfbiu">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Template Bundle: Tutoring Services Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$21</span><a class="btn" href="https://coachcaptain.gumroad.com/l/ajuqi">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Template Bundle: Restaurant Owners Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$21</span><a class="btn" href="https://coachcaptain.gumroad.com/l/bkwnal">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Prompt Expansion Pack: Local Contractors Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$19</span><a class="btn" href="https://coachcaptain.gumroad.com/l/tryiohj">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Prompt Expansion Pack: Dog Trainers Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$19</span><a class="btn" href="https://coachcaptain.gumroad.com/l/gxuxji">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Niche Playbook: Barbershops Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$24</span><a class="btn" href="https://coachcaptain.gumroad.com/l/wibgeg">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Operations Checklist Kit: Wedding Planners Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$17</span><a class="btn" href="https://coachcaptain.gumroad.com/l/nnosi">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Operations Checklist Kit: Photographers Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$17</span><a class="btn" href="https://coachcaptain.gumroad.com/l/dvykxh">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Operations Checklist Kit: Fitness Coaches Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$17</span><a class="btn" href="https://coachcaptain.gumroad.com/l/ogtllw">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Niche Playbook: Etsy Sellers Edition</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$24</span><a class="btn" href="https://coachcaptain.gumroad.com/l/trwcoe">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">AUTOMATION</span>
-        <h2>90-Day AI Freelance Sprint — Zero to Paid Automation</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$47</span><a class="btn" href="https://coachcaptain.gumroad.com/l/freelance-sprint">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Faceless YouTube Launch Kit — 30-Day Plan</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$27</span><a class="btn" href="https://coachcaptain.gumroad.com/l/faceless-launch-kit">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Cathedral Solarpunk Pack — Stills + I2V Clip + Story</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$12</span><a class="btn" href="https://coachcaptain.gumroad.com/l/cathedral-solarpunk">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Athletic Intensity Story & Prompt Pack</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$29</span><a class="btn" href="https://coachcaptain.gumroad.com/l/vufixb">Get it</a></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <span class="badge">PLAYBOOK</span>
-        <h2>Captain Training Digital Pack</h2>
-        <p>Instant download &middot; lifetime updates &middot; 30-day guarantee.</p>
-        <div class="price-row"><span class="price">$27</span><a class="btn" href="https://coachcaptain.gumroad.com/l/cysml">Get it</a></div>
-      </div>
-    </div>
-  </div>
-  <!-- CATALOG:END -->
+<!-- CATALOG:END -->
+<!-- HIGH_TICKET:END -->
 
   <footer>Instant download · Lifetime updates · 30-day "ship something real" guarantee on every pack<br>© 2026 AlphaDesk — built by an operator</footer>
 </div>
 <script>
-// Storefront URLs get patched into this map when Gumroad listings go live.
-const LINKS = {
-  "Valkyrie": "https://coachcaptain.gumroad.com/l/zmurlh",
-  "AlphaBoostPack": "https://coachcaptain.gumroad.com/l/tutmd",
-  "FacelessChannelKit": "https://coachcaptain.gumroad.com/l/meqvf",
-  "AIFreelanceSprint": "https://coachcaptain.gumroad.com/l/vcmth",
-};
-document.querySelectorAll('[data-product]').forEach(a => {
-  const url = LINKS[a.dataset.product];
-  if (url) { a.href = url; }
-  else { a.addEventListener('click', e => { e.preventDefault(); a.textContent = 'Live soon'; }); }
+// Append UTM tracking at click time while keeping raw hrefs intact for funnel watchdog parity.
+document.querySelectorAll('a[href*="coachcaptain.gumroad.com/l/"]').forEach(a => {
+  a.addEventListener('click', () => {
+    try {
+      const u = new URL(a.href);
+      if (!u.searchParams.has('utm_source')) {
+        u.searchParams.set('utm_source', 'alphadesk_storefront');
+        u.searchParams.set('utm_medium', 'web');
+        u.searchParams.set('utm_campaign', 'empire_catalog');
+        a.href = u.toString();
+      }
+    } catch (_) {}
+  });
 });
+function selectInquiry(val) {
+  const sel = document.getElementById('lead-interest');
+  if (sel) sel.value = val;
+}
+function handleLeadSubmit(e) {
+  e.preventDefault();
+  const name = document.getElementById('lead-name').value.trim();
+  const contact = document.getElementById('lead-contact').value.trim();
+  const interest = document.getElementById('lead-interest').value;
+  const notes = document.getElementById('lead-notes').value.trim();
+  const payload = { ts: new Date().toISOString(), name, contact, interest, notes };
+  try {
+    const prev = JSON.parse(localStorage.getItem('alphadesk_leads') || '[]');
+    prev.push(payload);
+    localStorage.setItem('alphadesk_leads', JSON.stringify(prev));
+  } catch (_) {}
+  const st = document.getElementById('lead-status');
+  if (st) st.textContent = 'Request logged! Redirecting you to the Free Operator Starter Vault to lock your email...';
+  window.open('https://coachcaptain.gumroad.com/l/operator-starter-vault?utm_source=storefront_lead_form&utm_medium=web&utm_campaign=' + encodeURIComponent(interest), '_blank');
+  return false;
+}
 </script>
 </body>
 </html>
